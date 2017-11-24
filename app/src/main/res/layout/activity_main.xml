@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiaopeng.myslideruler.MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:gravity="center"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.xiaopeng.myslideruler.SlideRulerView
+        android:id="@+id/slideruler"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/padding_large"
+        app:current_value="200"
+        app:dividerColor="@color/text_color_hint"
+        app:indicatrixColor="@color/text_color_orange"
+        app:longCursor="@dimen/padding_medium"
+        app:margin_cursor_data="@dimen/padding_medium"
+        app:max_value="2000"
+        app:min_currentValue="100"
+        app:min_unitValue="100"
+        app:min_value="0"
+        app:shortCursor="@dimen/padding_small"
+        app:show_itemSize="60"
+        app:textColor="@color/text_color_hint"
+        app:textSize="@dimen/text_size_main" />
+
+</LinearLayout>

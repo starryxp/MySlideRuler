@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="slideruler">
+        <!--最小值-->
+        <attr name="min_value" format="integer" />
+        <!--最大值-->
+        <attr name="max_value" format="integer" />
+        <!--当前值-->
+        <attr name="current_value" format="integer" />
+        <!--最小单位值-->
+        <attr name="min_unitValue" format="integer" />
+        <!--最小当前值-->
+        <attr name="min_currentValue" format="integer" />
+        <!--数值字体大小-->
+        <attr name="textSize" format="dimension" />
+        <!---数值字体颜色-->
+        <attr name="textColor" format="integer" />
+        <!--底部和刻度的线颜色-->
+        <attr name="dividerColor" format="integer" />
+        <!--指示器的颜色-->
+        <attr name="indicatrixColor" format="integer" />
+        <!--一屏显示Item-->
+        <attr name="show_itemSize" format="integer" />
+        <!--刻度和数值的间距-->
+        <attr name="margin_cursor_data" format="dimension" />
+        <!--长指针大小-->
+        <attr name="longCursor" format="dimension" />
+        <!--短指针大小-->
+        <attr name="shortCursor" format="dimension" />
+    </declare-styleable>
+
+</resources>
